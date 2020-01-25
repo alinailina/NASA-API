@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+    <link rel="stylesheet" href="nasa.css" />
+    <script src="nasa.js" defer></script>
+    <title>NASA API - Astronomy Picture of The Day</title>
+  </head>
+  <body>
+    <div id="nasa">
+      <h1>NASA API</h1>
+      <h2>Astronomy Picture of the Day</h2>
+
+      <div class="buttons">
+        <button class="button-primary">Discover Cosmos</button>
+        <a href="https://apod.nasa.gov/apod/archivepix.html">
+          <button>See Archives</button>
+        </a>
+      </div>
+
+      <div class="nasa-output">
+        <div id="img"></div>
+        <p id="author"></p>
+        <p id="date"></p>
+        <p id="text"></p>
+      </div>
+    </div>
+  </body>
+</html>
